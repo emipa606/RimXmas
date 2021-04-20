@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ThingSetMakerDef>
+    <defName>XmasPodInventory</defName>
+    <root Class="ThingSetMaker_Sum">
+      <options>
+        <li>
+          <chance>1</chance>
+          <thingSetMaker Class="ThingSetMaker_StackCount">
+            <fixedParams>
+              <filter>
+                <thingDefs>
+                  <li>MealFine</li>
+                </thingDefs>
+              </filter>
+              <countRange>
+                <min>32</min>
+                <max>64</max>
+              </countRange>
+            </fixedParams>
+          </thingSetMaker>
+        </li>
+        <li>
+          <chance>1</chance>
+          <thingSetMaker Class="ThingSetMaker_StackCount">
+            <fixedParams>
+              <filter>
+                <thingDefs>
+                  <li>MealLavish</li>
+                </thingDefs>
+              </filter>
+              <countRange>
+                <min>8</min>
+                <max>32</max>
+              </countRange>
+            </fixedParams>
+          </thingSetMaker>
+        </li>
+        <li>
+          <chance>1</chance>
+          <thingSetMaker Class="ThingSetMaker_StackCount">
+            <fixedParams>
+              <filter>
+                <thingDefs>
+                  <li>Chocolate</li>
+                </thingDefs>
+              </filter>
+              <countRange>
+                <min>8</min>
+                <max>24</max>
+              </countRange>
+            </fixedParams>
+          </thingSetMaker>
+        </li>
+        <li>
+          <chance>1</chance>
+          <thingSetMaker Class="ThingSetMaker_StackCount">
+            <fixedParams>
+              <filter>
+                <thingDefs>
+                  <li>Beer</li>
+                </thingDefs>
+              </filter>
+              <countRange>
+                <min>8</min>
+                <max>24</max>
+              </countRange>
+            </fixedParams>
+          </thingSetMaker>
+        </li>
+        <li>
+          <chance>1</chance>
+          <thingSetMaker Class="ThingSetMaker_StackCount">
+            <fixedParams>
+              <filter>
+                <thingDefs>
+                  <li>SmokeleafJoint</li>
+                </thingDefs>
+              </filter>
+              <countRange>
+                <min>8</min>
+                <max>24</max>
+              </countRange>
+            </fixedParams>
+          </thingSetMaker>
+        </li>
+      </options>
+    </root>
+  </ThingSetMakerDef>
+</Defs>

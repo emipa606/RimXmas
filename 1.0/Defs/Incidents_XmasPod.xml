@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <IncidentDef>
+    <defName>XmasPodDrop</defName>
+    <label>xmas pod dropped</label>
+    <category>Misc</category>
+    <targetTags>
+      <li>Map_PlayerHome</li>
+    </targetTags>
+    <workerClass>RimXmas.IncidentWorker_XmasPodDrop</workerClass>
+    <baseChance>2.6</baseChance>
+  </IncidentDef>
+</Defs>
