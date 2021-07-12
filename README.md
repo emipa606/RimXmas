@@ -13,7 +13,7 @@ https://steamcommunity.com/sharedfiles/filedetails/?id=1223742773
 	
 ![Image](https://i.imgur.com/NOW7jU1.png)
 
-when winter season night, "Universe Santa Claus Association" come your planet and drop xmas presents on your colony. xmas presents contains are food and drug. maybe this event is too rare. have a nice xmas. this mod support japanese and english :D Hope you enjoyed the mod, leave a comment, subscribe and rate! Thanks!
+when winter season night, &quot;Universe Santa Claus Association&quot; come your planet and drop xmas presents on your colony. xmas presents contains are food and drug. maybe this event is too rare. have a nice xmas. this mod support japanese and english :D Hope you enjoyed the mod, leave a comment, subscribe and rate! Thanks!
 
 このMODは冬の夜に「宇宙サンタクロース協会」がクリスマスプレゼントを投下してくるイベントを追加します。冬の夜限定なので、おそらくイベント発生の確率は低いです。ポッドの中身は食料かドラッグ、その両方です。よいクリスマスを！
 

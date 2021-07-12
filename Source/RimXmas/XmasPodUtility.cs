@@ -20,7 +20,8 @@ namespace RimXmas
         }
 
         // Token: 0x06000002 RID: 2 RVA: 0x00002090 File Offset: 0x00000290
-        public static void DropThingsNear(IntVec3 dropCenter, Map map, IEnumerable<Thing> things, int openDelay, bool canInstaDropDuringInit, bool leaveSlag, bool canRoofPunch)
+        public static void DropThingsNear(IntVec3 dropCenter, Map map, IEnumerable<Thing> things, int openDelay,
+            bool canInstaDropDuringInit, bool leaveSlag, bool canRoofPunch)
         {
             tempList.Clear();
             foreach (var item in things)
@@ -34,13 +35,15 @@ namespace RimXmas
         }
 
         // Token: 0x06000003 RID: 3 RVA: 0x0000214C File Offset: 0x0000034C
-        private static void DropThingGroupsNear(IntVec3 dropCenter, Map map, List<List<Thing>> thingsGroups, int openDelay, bool instaDrop, bool leaveSlag, bool canRoofPunch)
+        private static void DropThingGroupsNear(IntVec3 dropCenter, Map map, List<List<Thing>> thingsGroups,
+            int openDelay, bool instaDrop, bool leaveSlag, bool canRoofPunch)
         {
             foreach (var list in thingsGroups)
             {
                 if (!DropCellFinder.TryFindDropSpotNear(dropCenter, map, out var intVec, true, canRoofPunch))
                 {
-                    Log.Warning(string.Concat("DropThingsNear failed to find a place to drop ", list.FirstOrDefault(), " near ", dropCenter, ". Dropping on random square instead."));
+                    Log.Warning(string.Concat("DropThingsNear failed to find a place to drop ", list.FirstOrDefault(),
+                        " near ", dropCenter, ". Dropping on random square instead."));
                     intVec = CellFinderLoose.RandomCellWith(c => c.Walkable(map), map);
                 }
 

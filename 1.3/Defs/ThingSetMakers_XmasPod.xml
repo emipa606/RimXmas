@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ThingSetMakerDef>
+    <defName>XmasPodInventory</defName>
+    <root Class="ThingSetMaker_Sum">
+      <options>
+        <li>
+          <chance>1</chance>
+          <thingSetMaker Class="ThingSetMaker_StackCount">
+            <fixedParams>
+              <filter>
+                <categories>
+                  <li>FoodMeals</li>
+                </categories>
+              </filter>
+              <countRange>
+                <min>32</min>
+                <max>64</max>
+              </countRange>
+            </fixedParams>
+          </thingSetMaker>
+        </li>
+        <li>
+          <chance>1</chance>
+          <thingSetMaker Class="ThingSetMaker_StackCount">
+            <fixedParams>
+              <filter>
+                <categories>
+                  <li>FoodRaw</li>
+                </categories>
+              </filter>
+              <countRange>
+                <min>8</min>
+                <max>16</max>
+              </countRange>
+            </fixedParams>
+          </thingSetMaker>
+        </li>
+        <li>
+          <chance>1</chance>
+          <thingSetMaker Class="ThingSetMaker_StackCount">
+            <fixedParams>
+              <filter>
+                <categories>
+                  <li>Medicine</li>
+                </categories>
+              </filter>
+              <countRange>
+                <min>8</min>
+                <max>24</max>
+              </countRange>
+            </fixedParams>
+          </thingSetMaker>
+        </li>
+        <li>
+          <chance>1</chance>
+          <thingSetMaker Class="ThingSetMaker_StackCount">
+            <fixedParams>
+              <filter>
+                <categories>
+                  <li>Drugs</li>
+                </categories>
+              </filter>
+              <countRange>
+                <min>16</min>
+                <max>48</max>
+              </countRange>
+            </fixedParams>
+          </thingSetMaker>
+        </li>
+      </options>
+    </root>
+  </ThingSetMakerDef>
+</Defs>

@@ -61,7 +61,8 @@ namespace RimXmas
                 }
                 else if (activeXmasPodDef.xmasContents == null)
                 {
-                    Log.ErrorOnce("[RimXmas]: xmasContents was not defined in ActiveXmasPod!", "xmasContents".GetHashCode());
+                    Log.ErrorOnce("[RimXmas]: xmasContents was not defined in ActiveXmasPod!",
+                        "xmasContents".GetHashCode());
                     result = false;
                 }
                 else
@@ -70,7 +71,8 @@ namespace RimXmas
                     var map = (Map) parms.target;
                     var intVec = DropCellFinder.RandomDropSpot(map);
                     XmasPodUtility.DropThingsNear(intVec, map, things, 110, false, true, true);
-                    Find.LetterStack.ReceiveLetter("LetterLabelXmasPodDrop".Translate(), "XmasPodDrop".Translate(), LetterDefOf.PositiveEvent, new TargetInfo(intVec, map));
+                    Find.LetterStack.ReceiveLetter("LetterLabelXmasPodDrop".Translate(), "XmasPodDrop".Translate(),
+                        LetterDefOf.PositiveEvent, new TargetInfo(intVec, map));
                     result = true;
                 }
             }
